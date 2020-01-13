@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+ font-family: 'Open Sans', sans-serif;
+ src: url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,800&display=swap);
+}
+
+.nav {
+  background-color: #0000ff;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  clear: both;
+}
+
+
+.nav li{
+  display: inline:
+  padding-right: 50px;
+}
+
+.nav li a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 300 bold;
+  display: block;
+  color: #ffa500;
+  background-color: #0000ff;
+}
+nav li a:hover{
+  color: #0000ff;
+  background-color: #ffa500;
+}
+ h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800 bold;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #0000ff;
+text-align: center;
+   grid-column: 1 / 10;
+   grid-row: 1 / 2;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  max-height: 100%;
+}
+div.ImageC{
+  width: 1000px;
+  height: auto;
+}
+table .Vehicle-table, th, td{
+  border: 5px solid #0000ff;
+}
+table{
+  border-collapse: collapse;
+  grid-column: 2 / 9;
+  grid-row: 6;
+  clear: both;
+}
+body{
+  background-color: #ffa500;
+  padding-top: 100px;
+}
+.grid{
+  display: grid;
+  grid-auto-rows: 50px;
+  grid-auto-columns: repeat 10(10%);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.descriptor-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #0000ff;
+  text-align: center;
+  grid-row: 4 / 5;
+  grid-column: 1 / 10;
+
+}
+.Tank-Page:hover{
+  color: #ff00ff;
+}
+ul { overflow: hidden; }
